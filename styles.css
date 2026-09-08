@@ -5,7 +5,7 @@ body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify
 .calculator { padding: 22px; background: white; border: 1px solid #b9b9b9; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, .15); animation: appear .35s ease-out; }
 h1 { margin: 0 0 18px; color: var(--blue); font-size: 26px; font-weight: bold; text-align: center; }
 .display-panel { margin-bottom: 16px; padding: 10px; background: #252525; border-radius: 4px; color: white; }
-.display-meta { display: flex; justify-content: space-between; margin-bottom: 7px; color: #bdbdbd; font-size: 11px; }
+.display-meta { display: flex; justify-content: space-between; margin-bottom: 7px; color: #bdbdbd; font-size: 12px; }
 .expression { min-height: 18px; color: #bdbdbd; font-size: 13px; text-align: right; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .display-value { display: block; min-height: 47px; overflow: hidden; color: white; font-family: 'Courier New', monospace; font-size: 36px; line-height: 47px; text-align: right; white-space: nowrap; text-overflow: ellipsis; transition: transform .15s ease, color .15s ease; }
 .display-value.bump { animation: bump .2s ease; } .display-value.error { color: #ff7777; }
